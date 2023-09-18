@@ -1,0 +1,23 @@
+{
+  "name": "calendar-domain-api",
+  "version": "1.0.0",
+  "description": "Calendar Domain API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "bun test",
+    "build": "tsc",
+    "prepare": "bun build"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "@types/uuid": "^9.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "uuid": "^9.0.1"
+  }
+}
