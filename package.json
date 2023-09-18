@@ -9,8 +9,8 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "bun-types": "latest",
-    "@types/uuid": "^9.0.4"
+    "@types/uuid": "^9.0.4",
+    "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
