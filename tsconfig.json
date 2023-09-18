@@ -1,23 +1,18 @@
 {
   "compilerOptions": {
-    "lib": ["ESNext"],
-    "module": "esnext",
-    "target": "esnext",
-    "moduleResolution": "bundler",
-    "moduleDetection": "force",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
-    "composite": true,
-    "strict": true,
-    "downlevelIteration": true,
-    "skipLibCheck": true,
-    "jsx": "preserve",
-    "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true,
-    "allowJs": true,
-    "types": [
-      "bun-types" // add Bun global
-    ],
-    "outDir": "./dist"
-  }
+    "target": "ES2020",              // Specify ECMAScript target version
+    "module": "CommonJS",            // Specify module code generation
+    "outDir": "./dist",              // Output directory for compiled files
+    "rootDir": "./src",              // Root directory for source files
+    "strict": true,                  // Enable strict type-checking options
+    "esModuleInterop": true,         // Provides compatibility between CommonJS and ES Modules
+    "skipLibCheck": true,            // Skip type checking for declaration files in node_modules
+    "forceConsistentCasingInFileNames": true // Disallow inconsistent casing in filenames
+  },
+  "include": [
+    "src/**/*.ts"  // Files to be compiled
+  ],
+  "exclude": [
+    "node_modules"  // Exclude node_modules from compilation
+  ]
 }

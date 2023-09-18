@@ -19,12 +19,20 @@ or
 npm install
 ```
 
+To test:
+
+```bash
+bun test
+or
+npm run test
+```
+
 To build:
 
 ```bash
-    bun run build
-    or
-    npm run build
+bun run build
+or
+npm run build
 ```
 
 This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
